@@ -10,6 +10,7 @@
     <% end %>
 
     <%= javascript_include_tag "chai", "konacha/iframe", :debug => false %>
+    <%= javascript_include_tag "libraries/jquery", "libraries/handlebars", "libraries/ember", "libraries/ember-data", "i18n", "tests/vendor/sinon", "i18n/translations" %>
     <%= javascript_include_tag @spec.asset_name %>
   </head>
   <body>
